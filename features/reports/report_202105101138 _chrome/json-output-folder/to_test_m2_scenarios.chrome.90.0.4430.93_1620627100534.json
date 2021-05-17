@@ -1,0 +1,811 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "To test M2 scenarios",
+    "line": 1,
+    "id": "to-test-m2-scenarios",
+    "tags": [],
+    "uri": "features\\peoplemanagement.feature",
+    "elements": [
+      {
+        "id": "to-test-m2-scenarios;verifying-the-successful-login.",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verifying the successful login.",
+        "tags": [
+          {
+            "name": "@test13",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I go to \"/user/login\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11343
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I wait \"testdata.testdata_time_20\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20007
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I enter \"testdata.testdata_username\" in \"locators.locator_username\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:117"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 214
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I enter \"testdata.testdata_password\" in \"locators.locator_password\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:117"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on \"locators.locator_signIn\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:124"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I wait \"testdata.testdata_time_20\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20008
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I wait \"testdata.testdata_time_20\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20015
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "to-test-m2-scenarios;verify-user-is-able-to-maximize-money-in-motion-filter-section-and-verify-that-money-in-motion-event-attributes-are-present",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Verify user is able to maximize money in motion filter section and verify that money in motion event attributes are present",
+        "tags": [
+          {
+            "name": "@test13",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I clicked \"locators.locator_Prospect_finder\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:420"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I wait \"testdata.testdata_time_5\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5010
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I clicked \"locators.locator_money_in_motion_attribute\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:420"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I wait \"testdata.testdata_time_5\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5012
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I should see field \"locators.locator_people_money_in_motion_event\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:633"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I wait \"testdata.testdata_time_5\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5007
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "to-test-m2-scenarios;verify-user-is-able-to-filter-by-money-motion-event-in-the-prospect-finder-people-screen-and-verify-data-in-profile-screen.",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Verify user is able to filter by money motion event in the prospect finder-people screen and verify data in profile screen.",
+        "tags": [
+          {
+            "name": "@test13",
+            "line": 26
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I mouse hover on \"locators.locator_hover_moneymotionin_people\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:283"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I wait \"testdata.testdata_time_3\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I hover on \"locators.locator_people_money_in_motion_event\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:306"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I wait \"testdata.testdata_time_10\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10012
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I clicked \"locators.locator_people_event_all\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:420"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I wait \"testdata.testdata_time_5\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5009
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I clicked \"locators.locator_prospectfile_people_firstRow\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:420"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 136
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I wait \"testdata.testdata_time_10\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10014
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I should see field \"locators.locator_filter_boxpeople_event_all\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:633"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I wait \"testdata.testdata_time_5\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5006
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I clicked \"locators.locator_profile_close\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:420"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I wait \"testdata.testdata_time_5\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5023
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "to-test-m2-scenarios;verify-user-is-able-to-filter-by-wealth-segment--in-the-prospect-finder-insight-screen-and-verify-data-in-profile-screen.",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Verify user is able to filter by wealth segment  in the prospect finder-insight screen and verify data in profile screen.",
+        "tags": [
+          {
+            "name": "@test13",
+            "line": 42
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I clicked \"locators.locator_insighttab\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:420"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 146
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I wait \"testdata.testdata_time_5\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5010
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "I should see field \"locators.locator_filter_boxpeople_event_all\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:633"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "I wait \"testdata.testdata_time_5\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5006
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "to-test-m2-scenarios;verify-user-is-able-to-filter-by-wealth-segment-in-the-prospect-finder-event-screen-and-verify-data-in-profile-screen.",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "Verify user is able to filter by wealth segment in the prospect finder-event screen and verify data in profile screen.",
+        "tags": [
+          {
+            "name": "@test13",
+            "line": 50
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "I clicked \"locators.locator_event_tab\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:420"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "I wait \"testdata.testdata_time_10\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10017
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "I should see field \"locators.locator_filter_boxpeople_event_all\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:633"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "I wait \"testdata.testdata_time_5\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5008
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "to-test-m2-scenarios;verify-user-is-able-to-close-wealth-segment-label-filter-by-clicking-on-close-button-in-the-label.",
+        "keyword": "Scenario",
+        "line": 58,
+        "name": "Verify user is able to close wealth segment label filter by clicking on close button in the label.",
+        "tags": [
+          {
+            "name": "@test13",
+            "line": 57
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "I clicked \"locators.locatorpeopletab\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:420"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 388
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "I wait \"testdata.testdata_time_8\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8012
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "I clicked \"locators.locator_filter_boxpeople_event_all\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:420"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "I wait \"testdata.testdata_time_8\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8008
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 63,
+            "name": "I check \"locators.locator_filter_boxpeople_event_all\" not present",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:260"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "I wait \"testdata.testdata_time_3\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "to-test-m2-scenarios;verify-user-is-able-to--clear-wealth-segment-filter-by-clicking-on-clear-button.",
+        "keyword": "Scenario",
+        "line": 67,
+        "name": "Verify user is able to  clear wealth segment filter by clicking on clear button.",
+        "tags": [
+          {
+            "name": "@test13",
+            "line": 66
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "I hover on \"locators.locator_people_money_in_motion_event\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:306"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "I wait \"testdata.testdata_time_10\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10009
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "I clicked \"locators.locator_people_event_all\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:420"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 549
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "I wait \"testdata.testdata_time_5\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5029
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 72,
+            "name": "I clicked \"locators.locator_prospect_findrer_clearbutton\"",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:420"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "I wait \"testdata.testdata_time_3\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 74,
+            "name": "I check \"locators.locator_filter_boxpeople_event_all\" not present",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:260"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 75,
+            "name": "I wait \"testdata.testdata_time_3\" milliseconds",
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:638"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\step_definitions\\base_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "90.0.4430.93"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
